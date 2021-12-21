@@ -105,9 +105,10 @@ img {
 }
 
 header {
-  width:230px;
-  float:left;
+  width:330px;
+  /* float:left; */
   position:fixed;
+  left:390px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -171,8 +172,9 @@ header ul a strong {
 }
 
 section {
-  width:600px;
-  float:right;
+  width:750px;
+  /* float:right; */
+  padding-left: 100px;
   padding-bottom:5px;
 }
 
@@ -188,11 +190,11 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:100%;
   float:left;
-  position:fixed;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
+  text-align: center;
+  position:absolute;
+  padding-top: 30px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -202,7 +204,7 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  header, section{
     float:none;
     position:static;
     width:auto;
@@ -224,6 +226,7 @@ footer {
     border-width:1px 0;
     padding:0 0 0 0;
     margin:0 0 0 0;
+
   }
 
   header a small {
