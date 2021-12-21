@@ -35,7 +35,7 @@ h2, h3 {
 
 h2 {
     padding-top: 0.8em;
-    font-size: 160%;
+    font-size: 155%;
 }
 
 h2 + h3 {
@@ -43,7 +43,7 @@ h2 + h3 {
 }
 
 h3 {
-    font-size: 110%;
+    font-size: 120%;
     border-bottom: none;
 }
 
