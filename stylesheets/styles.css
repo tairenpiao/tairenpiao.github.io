@@ -5,6 +5,7 @@ body {
   font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight:40px;
   padding-bottom: 20px;
+  font-size: 15px;
 }
 
 h1, h2, h3 {
@@ -27,30 +28,12 @@ a {
   text-decoration:none;
 }
 
-a:hover {
-  color:#069;
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.3em;
-  display:block;
-}
-
-a:hover small {
-  color:#777;
-}
-
 .wrapper {
   width:100%;
   margin:0 20;
 }
 
 
-img {
-  max-width:100%;
-}
 
 header {
   width: 40%;
@@ -60,11 +43,14 @@ header {
 
 section {
   /* width: 100%; */
-  /* float:inline-end; */
+  padding-top: 1px;
   padding-left: 22%;
   padding-right: 5%;
 }
 
+img {
+  max-width:100%;
+}
 
 .image.avatar {
       border-radius: 100%;
@@ -72,9 +58,9 @@ section {
     }
 
 .image.avatar img {
-        border-radius: 60%;
+        border-radius: 55%;
         display: block;
-        width: 60%;
+        width: 55%;
 }
 
 h1 {
@@ -204,7 +190,6 @@ h1, h2, h3, h4, h5, h6, div.title, div.ftheader, span.venue, span.highlight {
 h4, div.title, div.ftsubheader {
     font-size: 100%
 }
-
 
 div.authors a:link,
 div.authors a:visited {
