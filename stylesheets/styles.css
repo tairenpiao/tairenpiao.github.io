@@ -46,7 +46,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:70%;
+  width:100%;
   margin:0 23.5%;
 }
 
@@ -56,17 +56,17 @@ img {
 }
 
 header {
-  width:22%;
+  width:20%;
   position:fixed;
   /* padding-right: 140px; */
 }
 
 section {
   width:100%;
-  /* margin-left: 100px; */
+  margin-left: 125px;
   /* margin-right:100px; */
-  padding-left:125px;
-  padding-right:70px;
+  /* padding-left:125px; */
+  padding-right:400px;
   padding-bottom:5px;
 }
 
