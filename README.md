@@ -1,8 +1,4 @@
 # Introduction
-My personal homepage
+My personal homepage.
 
 Domain: piaotairen.com
-
-
-
-
