@@ -13,22 +13,21 @@ p, ul, ol, table, pre, dl {
 
 
 .wrapper {
-  width:1000px;
+  width:870px;
   margin:0 auto;
   /* margin-right: 0px; */
 }
 
 
 header {
-  width:315px;
+  width:215px;
   position:fixed;
-  padding-left:100px;
   padding-top:3px;
   /* z-index: -1; */
 }
 
 section {
-  width: 685px;
+  width: 655px;
   margin-left: auto;
 }
 
@@ -60,7 +59,7 @@ footer {
   width:100%;
   color: #aaaaaa;
   text-align: center;
-  margin:80px 0 0 0;
+  margin:65px 0 0 0;
 }
 
 
