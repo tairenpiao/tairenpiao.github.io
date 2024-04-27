@@ -1,4 +1,3 @@
 # Introduction
 My personal homepage.
-
-Domain: piaotairen.com
+tairenpiao.github.io
