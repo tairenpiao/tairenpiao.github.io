@@ -3,25 +3,32 @@ body {
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
   color: #222;
   margin: 0;
-  padding: 0;
-  padding:50px;
+  padding: 50px;
   padding-bottom: 20px;
   font-size: 15px;
 }
 
 .avatar {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 18px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  margin-top: 18px;
+  margin-top: 0;
 }
 
 p, ul, ol, table, pre, dl {
   font-size: 15px;
-  margin:0 0 0 0px;
+  margin: 0 0 0 0;
+}
+
+/* Add spacing between main sections */
+section#experiences,
+section#education,
+section#publications,
+section#teaching {
+  margin-top: 3em;
 }
 
 header, section {
@@ -39,7 +46,6 @@ h2, h3 {
 }
 
 h2 {
-    padding-top: 0.8em;
     font-size: 155%;
 }
 
@@ -53,10 +59,104 @@ h3 {
 }
 
 footer {
-  width:100%;
+  width: 100%;
   color: #aaaaaa;
   text-align: center;
-  margin:65px 0 0 0;
+  margin: 65px 0 0 0;
+}
+
+/* Experience section styles */
+.experience-item {
+  margin-bottom: 1.5em;
+}
+.experience-item p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3em;
+}
+.experience-item .date,
+.experience-item .location {
+  font-size: 0.95em;
+  color: #666;
+}
+
+/* Education section styles */
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+}
+.education-logo {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+.education-details {
+  flex: 1;
+}
+.education-details .date {
+  color: #666;
+  font-size: 0.95em;
+}
+
+/* Publications section styles */
+.publications-list {
+  list-style: none;
+  padding-left: 0;
+}
+.publications-list li {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+  position: relative;
+}
+.publications-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+.publication-title {
+  margin-bottom: 0.3em;
+}
+.publication-authors {
+  margin-bottom: 0.3em;
+  color: #555;
+}
+.publication-links a {
+  color: #2980d9;
+  text-decoration: none;
+  font-weight: bold;
+}
+.publication-links a:hover {
+  text-decoration: underline;
+}
+.publication-links .tag {
+  color: #888;
+}
+
+/* Teaching section styles */
+.teaching-list {
+  list-style: none;
+  padding-left: 0;
+}
+.teaching-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8em;
+  padding-left: 1.5em;
+  position: relative;
+}
+.teaching-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+.teaching-list .date {
+  color: #666;
+  font-size: 0.95em;
+  white-space: nowrap;
 }
 
 .layout-flex {
@@ -69,7 +169,6 @@ footer {
 }
 .sidebar {
   background: #fff;
-  /* border-right: 1px solid #eee; */
   width: 290px;
   min-width: 230px;
   max-width: 340px;
@@ -134,7 +233,7 @@ footer {
 }
 .main-content {
   flex: 1 1 0%;
-  padding: 32px 40px 40px 48px;
+  padding: 18px 40px 40px 48px;
   min-width: 0;
 }
 .main-content > *:first-child {
@@ -142,6 +241,7 @@ footer {
 }
 .main-content h2:first-child {
   margin-top: 0;
+  padding-top: 0;
 }
 @media (max-width: 900px) {
   .layout-flex {
