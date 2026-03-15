@@ -1,11 +1,3 @@
-# My Page
-
-Have fun!
-
-# Site
-
-piaotairen.com
-
-
-
-
+# Introduction
+My personal homepage.
+tairenpiao.github.io
